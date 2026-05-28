@@ -1,0 +1,8 @@
+# Required for cloud API judge (mode="api") and HTTP fallbacks
+httpx>=0.27
+
+# Required for local LLM judge (mode="local"). Comment out if you only
+# use mode="vote"/"weighted" — the algorithm-only path has zero deps.
+# torch>=2.1
+# transformers>=4.45
+# accelerate>=0.30
